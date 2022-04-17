@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "topic":"EVENT PHOTOGRAPHY",
+        "price":"$450",
+        "details":"First, a detail shot can be image with any subject matter that is small size or small in overall relation to the general subject.",
+        "img":"https://i.ibb.co/8sndvZm/event.jpg"
+    },
+    {
+        "id":2,
+        "topic":"SPORTS PHOTOGRAPHY",
+        "price":"$475",
+        "details":"Sports photography is the capture of sports, games, exercises, tutorial and other various activities through photography. ",
+        "img":"https://i.ibb.co/Z82p7Mg/sports.jpg"
+    },
+    {
+        "id":3,
+        "topic":"FOOD PHOTOGRAPHY",
+        "price":"$150",
+        "details":"It is a specialization of commercial photography, the products of which are used in advertisements, magazines, packaging, menus. ",
+        "img":"https://i.ibb.co/vzD0yxR/food.jpg"
+    },
+    {
+        "id":4,
+        "topic":"SOCIAL PHOTOGRAPHY",
+        "price":"$270",
+        "details":"Social media photography is simply exchanging one marginalised audience for another. The benefit is that method must be exclusive.",
+        "img":"https://i.ibb.co/PGNDZcS/social.jpg"
+    },
+    {
+        "id":5,
+        "topic":"LIFESTYLE PHOTOGRAPHY",
+        "price":"$230",
+        "details":"Lifestyle photography is a genre of photography that mainly aims to capture and show of portraits of people in situations. ",
+        "img":"https://i.ibb.co/Lvs7YjN/michael-demoya-p54j-b-Bk-FKU-unsplash-1-1.jpg"
+    },
+    {
+        "id":6,
+        "topic":"WEDDING PHOTOGRAPHY",
+        "price":"$575",
+        "details":"Wedding photography is a specialty in photography that is primarily focused on the photography of events relating to weddings. ",
+        "img":"https://i.ibb.co/NNVJ9Zq/wedding.jpg"
+    }
+]
