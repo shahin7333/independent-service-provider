@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
+import './Banner.css'
 import { Carousel } from 'react-bootstrap'
 import banner1 from '../../../img/slide/slide-3.png'
 import banner2 from '../../../img/slide/slide-2.png'
@@ -11,23 +12,27 @@ const Banner = () => {
         <Carousel.Item>
           <img className="d-block w-100" src={banner1} alt="First slide" />
           <Carousel.Caption>
-            <h1 className='text-white'>First slide label</h1>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h1 className="page-name text-white">THE MEMORY MAKER</h1>
+            <p className='text-white'>
+              Yesterday is but today's memory, and tomorrow is today's dream
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block w-100" src={banner2} alt="Second slide" />
           <Carousel.Caption>
-            <h1 className='text-white'>Second slide label</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h1 className="page-name text-white">THE MEMORY MAKER</h1>
+            <p className='text-white'>
+              Yesterday is but today's memory, and tomorrow is today's dream
+            </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block w-100" src={banner3} alt="Third slide" />
           <Carousel.Caption>
-            <h1 className='text-white'>Third slide label</h1>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            <h1 className="page-name text-white">THE MEMORY MAKER</h1>
+            <p className='text-white'>
+              Yesterday is but today's memory, and tomorrow is today's dream
             </p>
           </Carousel.Caption>
         </Carousel.Item>
