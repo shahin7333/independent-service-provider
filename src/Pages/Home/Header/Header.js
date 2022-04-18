@@ -32,8 +32,11 @@ const Header = () => {
             <Nav.Link className="text-white" href="home#services">
               Services
             </Nav.Link>
-            <Nav.Link className="text-white" as={Link} to="/blog">
+            <Nav.Link className="text-white" as={Link} to="/blogs">
               Blog
+            </Nav.Link>
+            <Nav.Link className="text-white" as={Link} to="/About">
+              About Me
             </Nav.Link>
             {user ? (
               <a onClick={handleLogOut} className='text-decoration-none mt-2 ms-2 text-white' href="">Log Out</a>
