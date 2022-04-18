@@ -6,12 +6,12 @@ import {getAuth} from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBYpWKpL9G1J-Q6LlpREWXcK8V6w4Dn3Gk",
-  authDomain: "the-memory-maker.firebaseapp.com",
-  projectId: "the-memory-maker",
-  storageBucket: "the-memory-maker.appspot.com",
-  messagingSenderId: "175123903964",
-  appId: "1:175123903964:web:88c9429f37d85f8faf0b19"
+  apiKey:process.env.REACT_APP_apiKey,
+  authDomain:process.env.REACT_APP_authDomain,
+  projectId:process.env.REACT_APP_projectId,
+  storageBucket:process.env.REACT_APP_storageBucket,
+  messagingSenderId:process.env.REACT_APP_messagingSenderId,
+  appId:process.env.REACT_APP_appId
 };
 
 // Initialize Firebase
