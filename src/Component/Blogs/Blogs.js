@@ -39,9 +39,6 @@ const Blogs = () => {
     <p class="card-text">Firebase Authentication provides backend services, easy to use SDKs, and ready made UI libraries to authentication users to your app. It supports authentication using passwords,phone numbers, popular fedreated identity providers like Google, Facebook and Twitter and more. Firebase Authenticaion integrates tightly with other Firebase services, and it leverages industry standards like OAuth 2.0 and OpenID Connect, so it can be easily integrated with your custom backend.</p>
     
   </div>
-  <div class="card-footer text-muted">
-    2 days ago
-  </div>
 </div>
   </div>
 
