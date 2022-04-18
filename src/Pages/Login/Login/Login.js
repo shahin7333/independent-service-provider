@@ -1,9 +1,10 @@
 import React, { useRef } from 'react'
 import { Button, Form } from 'react-bootstrap'
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth'
-import { useNavigate } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 import auth from '../../../firebase.init'
 import login from '../../../img/login/login.jpg'
+import SocialLogin from '../SocialLogin/SocialLogin'
 import './Login.css'
 
 const Login = () => {
@@ -16,6 +17,9 @@ const Login = () => {
   const emailRef = useRef('')
   const passRef = useRef('')
   const navigate = useNavigate()
+
+  const location=useLocation();
+  let from = location.state?.from?.pathname || "/";
   
 
   const handleLogin = (e) => {
@@ -28,7 +32,7 @@ const Login = () => {
     navigate('/register');
   }
   if(user){
-      navigate('/home')
+    navigate(from, { replace: true });
   }
   return (
     <div className="container mx-auto w-50">
@@ -75,7 +79,9 @@ const Login = () => {
                 Register an Account
               </small>
             </p>
+          
           </div>
+          <SocialLogin></SocialLogin>
         </div>
       </div>
     </div>

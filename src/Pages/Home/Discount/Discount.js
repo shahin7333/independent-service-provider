@@ -9,7 +9,7 @@ const Discount = () => {
            <div className='row'>
          
             <div className='col-lg-6 col-md-6 col-sm-12'>
-            <h4 className='highlight text-center mt-5'>DISCOUNT?</h4>
+            <h4 className='highlight text-center mt-5'>Discount?</h4>
             <p>You are new in my site? Do you want to hire me for your business? Get <b className='highlight'>35%</b> discount for the first time Hiring me. This offer only for the new Member and this offer only get for the first hiring.</p>
         </div>
         <div className='col-lg-6 col-md-6 col-sm-12'>

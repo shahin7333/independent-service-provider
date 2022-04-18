@@ -5,6 +5,7 @@ import register from '../../../img/register/register.jpg'
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import './Register.css'
 import auth from '../../../firebase.init';
+import SocialLogin from '../../Login/SocialLogin/SocialLogin';
 
 const Register = () => {
     const [
@@ -86,6 +87,7 @@ createUserWithEmailAndPassword(email,pass);
             </small>
           </p>
         </div>
+        <SocialLogin></SocialLogin>
       </div>
     </div>
   </div>
