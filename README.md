@@ -1,6 +1,6 @@
 # THE MEMORY MAKER
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+the site live link is (https://the-memory-maker.web.app).
 
 ## In this project
 here use bootstrap, react bootstrap to responsive the te site.

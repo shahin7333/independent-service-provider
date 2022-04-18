@@ -34,7 +34,7 @@ const SocialLogin = () => {
       </div>
 
       <div>
-        <h3 className="text-center">Login With Googel or Github</h3>
+        <h3 className="text-center">Login With Google or Github</h3>
         <button
           onClick={() => signInWithGoogle()}
           className="btn-btn text-items-center d-flex mx-auto border-0  py-2 px-5 mt-3"
