@@ -1,0 +1,13 @@
+.log-header{
+    color: rgb(0, 79, 82);
+}
+.login-btn{
+   background-color:rgb(0, 79, 82);
+   border: none;
+}
+.login-btn:hover{
+    background-color:rgb(1, 46, 48);
+}
+.register-account{
+    cursor: pointer;
+}

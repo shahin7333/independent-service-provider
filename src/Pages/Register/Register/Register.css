@@ -1,0 +1,7 @@
+.reg-btn{
+    background-color:rgb(1, 95, 99);
+    border: none;
+}
+.reg-btn:hover{
+    background-color:rgb(7, 53, 54);
+}

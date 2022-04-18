@@ -7,37 +7,37 @@ import banner3 from '../../../img/slide/slide-1.png'
 
 const Banner = () => {
   return (
-    <div>
+    
       <Carousel variant="dark">
         <Carousel.Item>
           <img className="d-block w-100" src={banner1} alt="First slide" />
           <Carousel.Caption>
-            <h1 className="page-name text-white">THE MEMORY MAKER</h1>
+            <h3 className="page-name text-white">THE MEMORY MAKER</h3>
             <p className='text-white'>
-              Yesterday is but today's memory, and tomorrow is today's dream
+             <small> Yesterday is but today's memory, and tomorrow is today's dream</small>
             </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block w-100" src={banner2} alt="Second slide" />
           <Carousel.Caption>
-            <h1 className="page-name text-white">THE MEMORY MAKER</h1>
+            <h3 className="page-name text-white">THE MEMORY MAKER</h3>
             <p className='text-white'>
-              Yesterday is but today's memory, and tomorrow is today's dream
+              <small>Yesterday is but today's memory, and tomorrow is today's dream</small>
             </p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block w-100" src={banner3} alt="Third slide" />
           <Carousel.Caption>
-            <h1 className="page-name text-white">THE MEMORY MAKER</h1>
+            <h3 className="page-name text-white">THE MEMORY MAKER</h3>
             <p className='text-white'>
-              Yesterday is but today's memory, and tomorrow is today's dream
+              <small>Yesterday is but today's memory, and tomorrow is today's dream</small>
             </p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-    </div>
+    
   )
 }
 

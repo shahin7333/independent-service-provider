@@ -17,7 +17,7 @@
         "id":3,
         "topic":"FOOD PHOTOGRAPHY",
         "price":"$150",
-        "details":"It is a specialization of commercial photography, the products of which are used in advertisements, magazines, packaging, menus. ",
+        "details":"It is a specialization of commercial photography, the products of which are used in advertisements, magazines, packaging, menus or cookbooks. ",
         "img":"https://i.ibb.co/vzD0yxR/food.jpg"
     },
     {
@@ -31,7 +31,7 @@
         "id":5,
         "topic":"LIFESTYLE PHOTOGRAPHY",
         "price":"$230",
-        "details":"Lifestyle photography is a genre of photography that mainly aims to capture and show of portraits of people in situations. ",
+        "details":"Lifestyle photography is a genre of photography that mainly aims to capture and show of portraits of people in situations in any conditons he likes. ",
         "img":"https://i.ibb.co/Lvs7YjN/michael-demoya-p54j-b-Bk-FKU-unsplash-1-1.jpg"
     },
     {
